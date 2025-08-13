@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code & IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / Frontend
+web/node_modules/
+web/dist/
+web/.next/
+web/.cache/
+
+# Data & artifacts
+data/raw/
+data/processed/
+data/train/
+data/val/
+data/test/
+
+# Models & checkpoints
+models/*.onnx
+models/*.pt
+models/*.pth
+models/checkpoints/
+models/outputs/
+
+# Logs
+logs/
+*.log
+
+# Docker
+*.env
+
+# Misc
+.coverage
+pytest_cache/
