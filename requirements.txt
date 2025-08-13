@@ -1,0 +1,22 @@
+# Core ML
+numpy
+pandas
+scikit-learn
+matplotlib
+opencv-python
+Pillow
+torch
+torchvision
+torchmetrics
+onnx
+onnxruntime
+fastapi
+uvicorn
+python-multipart
+requests
+# Grad-CAM
+opencv-python-headless
+# For exporting models
+onnx
+# For Docker
+# (requirements for web are in package.json)
